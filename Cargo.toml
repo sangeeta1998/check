@@ -1,0 +1,16 @@
+[package]
+name = "exp"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "b1"
+path = "src/b1.rs"
+
+
+[dependencies]
+
+#[package.metadata.wasm-pack.profile.release]
+#wasm-opt = true
+time = "*"
